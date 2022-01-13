@@ -1,0 +1,10 @@
+name: 'Echo'
+author: 'Brett Logan'
+description: 'Simple Action for echoing content to the shell'
+inputs:
+  message:
+    description: The message to echo
+    required: true
+runs:
+  using: node12
+  main: dist/index.js
